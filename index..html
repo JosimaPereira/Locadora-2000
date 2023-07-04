@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Locadora 2000</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CSS -->
+<link>
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <img src="img/film.svg" alt="locadora 2000" class="me-3" />
+        <a href="#topo" rel="noopener noreferrer" class="navbar-brand"
+          >Locadora 2000</a
+        >
+        <div class="collapse navbar-collapse" id="navBarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li>
+              <a
+                href="#tafilmes"
+                rel="noopener noreferrer"
+                class="nav-link active"
+                aria-current="page"
+                >Filmes Disponiveis</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="#drop"
+                rel="noopener noreferrer"
+                class="nav-link dropdown-toggle"
+                id="dropGeneros"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Filmes por Categoria</a
+              >
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a
+                    href="#gacao"
+                    rel="noopener noreferrer"
+                    class="dropdown-item"
+                    >Ação</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#ganim"
+                    rel="noopener noreferrer"
+                    class="dropdown-item"
+                    >Animação</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#groman"
+                    rel="noopener noreferrer"
+                    class="dropdown-item"
+                    >Romance</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#gsus"
+                    rel="noopener noreferrer"
+                    class="dropdown-item"
+                    >Suspense</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#cadfilmes" class="nav-link">Cadastrar Filmes</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1 class="display-1 text-center mb-5 mt-3">Locadora 2000</h1>
+    <div class="container">
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Código</th>
+            <th scope="col">Título</th>
+            <th scope="col">Diretor</th>
+            <th scope="col">Lançamento</th>
+            <th scope="col">Gêneros</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th class="text-center table-primary" colspan="5" id="gacao">
+              Ação
+            </th>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td scope="col">Homem-Aranha</td>
+            <td scope="col">Sam Raimi</td>
+            <td scope="col">17 maio 2002</td>
+            <td scope="col">Ação</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td scope="col">Título</td>
+            <td scope="col">Diretor</td>
+            <td scope="col">Ano</td>
+            <td scope="col">Ação</td>
+          </tr>
+          <tr>
+            <th class="text-center table-primary" colspan="5" id="ganim">
+              Animação
+            </th>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td scope="col">Título</td>
+            <td scope="col">Diretor</td>
+            <td scope="col">Ano</td>
+            <td scope="col">Animação</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
